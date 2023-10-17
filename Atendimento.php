@@ -5,7 +5,7 @@ class Atendimento
     private $senha;
     private $tipo;
 
-    public function __construct()
+    public function _construct()
     {
     }
 

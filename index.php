@@ -1,5 +1,10 @@
 <?php
+    include('Atendimento.php');
+    include('HandleAtendimento.php');
+
     include('DatabaseConnection.php');
+    $databaseConnection = new DatabaseConnection();
+    $databaseConnection->connect();
 ?>
 <html>
 
